@@ -1,4 +1,5 @@
 anyio==3.7.1
+apturl==0.5.2
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 arrow==1.2.3
@@ -11,6 +12,7 @@ bcrypt==3.2.0
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blinker==1.7.0
+Brlapi==0.8.3
 cachetools==5.0.0
 certifi==2020.6.20
 cffi==1.15.1
@@ -19,8 +21,10 @@ charset-normalizer==3.2.0
 click==8.1.7
 colorama==0.4.4
 comm==0.1.4
+command-not-found==0.3
 contourpy==1.1.0
 cryptography==3.4.8
+cupshelpers==1.0
 cycler==0.11.0
 dbus-python==1.2.18
 debugpy==1.6.7.post1
