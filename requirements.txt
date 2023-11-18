@@ -22,7 +22,6 @@ comm==0.1.4
 contourpy==1.1.0
 cryptography==3.4.8
 cycler==0.11.0
-cython>=0.29.24
 dbus-python==1.2.18
 debugpy==1.6.7.post1
 decorator==5.1.1
@@ -182,7 +181,6 @@ webcolors==1.13
 webencodings==0.5.1
 websocket-client==1.6.2
 Werkzeug==3.0.1
-wheel>=0.37.0
 widgetsnbextension==4.0.8
 word2number==1.1
 xdg==5
