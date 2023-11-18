@@ -11,7 +11,6 @@ bcrypt==3.2.0
 beautifulsoup4==4.12.2
 bleach==6.0.0
 blinker==1.7.0
-Brlapi==0.8.3
 cachetools==5.0.0
 certifi==2020.6.20
 cffi==1.15.1
