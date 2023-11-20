@@ -23,4 +23,4 @@ If the model is not able to predict the face, it throws a face-mismatch message.
 7. HTML/CSS/Javascript for UI 
 
 click the link for project demo.
-http://localhost:63342/Classfication%20Project:%20TechCelebrityClassifier/UI/app.html?_ijt=247e22hpecll6haanc2cdbd8q0&_ij_reload=RELOAD_ON_SAVE
+https://tech-celeb-image-classifier-bec63196d31a.herokuapp.com/
