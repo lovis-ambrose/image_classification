@@ -22,6 +22,7 @@ comm==0.1.4
 contourpy==1.1.0
 cryptography==3.4.8
 cycler==0.11.0
+cython>=0.29.24
 dbus-python==1.2.18
 debugpy==1.6.7.post1
 decorator==5.1.1
