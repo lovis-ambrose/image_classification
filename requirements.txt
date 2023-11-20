@@ -28,7 +28,6 @@ decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.7
 distro==1.7.0
-distro-info==1.1+ubuntu0.1
 duplicity==0.8.21
 et-xmlfile==1.1.0
 exceptiongroup==1.1.3
