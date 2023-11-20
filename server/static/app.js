@@ -29,7 +29,7 @@ function init() {
             data = [
                 {
                     class: "elon_musk",
-                    class_probability: [1.05, 12.67, 22.00, 4.5, 91.56],
+                    class_probability: [1.05, 12.67, 22.00, 4.5, 96.56],
                     class_dictionary: {
                         'elon_musk': 0,
                         'larry_ellison': 1,

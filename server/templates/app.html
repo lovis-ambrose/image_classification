@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Person Classifier</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="dropzone.min.css">
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='dropzone.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <div class="col card-wrapper" data-player="elon_musk">
                 <div class="card border-0">
                     <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                        <img class="w-100 h-100" src="./images/elon_musk.jpg" alt="Card image cap">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/elon_musk.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body text-center mt-4">
                         <h4 class="text-uppercase card-title">Elon Musk</h4>
@@ -30,7 +30,7 @@
             <div class="col card-wrapper" data-player="jeff_bezoz">
                     <div class="card border-0">
                         <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                            <img class="w-100 h-100" src="./images/jeff_bezoz.jpg" alt="Card image cap">
+                            <img class="w-100 h-100" src="{{ url_for('static', filename='images/jeff_bezoz.jpg') }}" alt="Card image cap">
                         </div>
                         <div class="card-body text-center mt-4">
                             <h4 class="text-uppercase card-title">Jeff Bezoz</h4>
@@ -40,7 +40,7 @@
             <div class="col card-wrapper" data-player="larry_ellison">
                     <div class="card border-0">
                         <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                            <img class="w-100 h-100" src="./images/larry_ellison.jpg" alt="Card image cap">
+                            <img class="w-100 h-100" src="{{ url_for('static', filename='images/larry_ellison.jpg') }}" alt="Card image cap">
                         </div>
                         <div class="card-body text-center mt-4">
                             <h4 class="text-uppercase card-title">Larry Ellison</h4>
@@ -51,7 +51,7 @@
             <div class="col card-wrapper" data-player="marissa_mayer">
                 <div class="card border-0">
                     <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                        <img class="w-100 h-100" src="./images/marissa_mayer.jpg" alt="Card image cap">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/marissa_mayer.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body text-center mt-4">
                         <h4 class="text-uppercase card-title">Marissa Mayer</h4>
@@ -62,7 +62,7 @@
             <div class="col card-wrapper" data-player="satya_nandella">
                 <div class="card border-0">
                     <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                        <img class="w-100 h-100" src="./images/satya_nandella.jpg" alt="Card image cap">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/satya_nandella.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body text-center mt-4">
                         <h4 class="text-uppercase card-title">Satya Nandella</h4>
@@ -73,7 +73,7 @@
             <div class="col card-wrapper" data-player="steve_jobs">
                 <div class="card border-0">
                     <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                        <img class="w-100 h-100" src="./images/steve_jobs.jpg" alt="Card image cap">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/steve_jobs.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body text-center mt-4">
                         <h4 class="text-uppercase card-title">Steve Jobs</h4>
@@ -84,7 +84,7 @@
             <div class="col card-wrapper" data-player="sundar_pichai">
                 <div class="card border-0">
                     <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
-                        <img class="w-100 h-100" src="./images/sundar_pichai.jpg" alt="Card image cap">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/sundar_pichai.jpg') }}" alt="Card image cap">
                     </div>
                     <div class="card-body text-center mt-4">
                         <h4 class="text-uppercase card-title">Sundar Pichai</h4>
@@ -164,6 +164,6 @@
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script src="dropzone.min.js"></script>
-<script src="app.js"></script>
+<script src="{{ url_for('static', filename='dropzone.min.js') }}"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
 </html>
